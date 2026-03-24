@@ -1,0 +1,211 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerAge": 34,
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 95,
+    "bowlingType": "None",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=Virat+Kohli",
+    "price": 1500000
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerAge": 28,
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 92,
+    "bowlingType": "None",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=Babar+Azam",
+    "price": 1200000
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerAge": 31,
+    "playerCountry": "England",
+    "playerType": "All-Rounder",
+    "rating": 90,
+    "bowlingType": "Right-arm fast",
+    "battingType": "Left-hand",
+    "image": "https://via.placeholder.com/150?text=Ben+Stokes",
+    "price": 1100000
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerAge": 23,
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 88,
+    "bowlingType": "Right-arm leg spin",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=Rashid+Khan",
+    "price": 900000
+  },
+  {
+    "playerName": "Joe Root",
+    "playerAge": 32,
+    "playerCountry": "England",
+    "playerType": "Batsman",
+    "rating": 91,
+    "bowlingType": "Right-arm off spin",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=Joe+Root",
+    "price": 1150000
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerAge": 31,
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 90,
+    "bowlingType": "Right-arm off spin",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=Kane+Williamson",
+    "price": 1100000
+  },
+  {
+    "playerName": "Mitchell Starc",
+    "playerAge": 32,
+    "playerCountry": "Australia",
+    "playerType": "Bowler",
+    "rating": 89,
+    "bowlingType": "Left-arm fast",
+    "battingType": "Left-hand",
+    "image": "https://via.placeholder.com/150?text=Mitchell+Starc",
+    "price": 1050000
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerAge": 34,
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "rating": 87,
+    "bowlingType": "Left-arm orthodox spin",
+    "battingType": "Left-hand",
+    "image": "https://via.placeholder.com/150?text=Shakib+Al+Hasan",
+    "price": 950000
+  },
+  {
+    "playerName": "MS Dhoni",
+    "playerAge": 40,
+    "playerCountry": "India",
+    "playerType": "Wicket-Keeper Batsman",
+    "rating": 94,
+    "bowlingType": "None",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=MS+Dhoni",
+    "price": 1400000
+  },
+  {
+    "playerName": "David Warner",
+    "playerAge": 35,
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 90,
+    "bowlingType": "Right-arm medium",
+    "battingType": "Left-hand",
+    "image": "https://via.placeholder.com/150?text=David+Warner",
+    "price": 1100000
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerAge": 28,
+    "playerCountry": "India",
+    "playerType": "Bowler",
+    "rating": 92,
+    "bowlingType": "Right-arm fast",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=Jasprit+Bumrah",
+    "price": 1250000
+  },
+  {
+    "playerName": "Chris Gayle",
+    "playerAge": 42,
+    "playerCountry": "West Indies",
+    "playerType": "Batsman",
+    "rating": 89,
+    "bowlingType": "Right-arm off spin",
+    "battingType": "Left-hand",
+    "image": "https://via.placeholder.com/150?text=Chris+Gayle",
+    "price": 900000
+  },
+  {
+    "playerName": "Pat Cummins",
+    "playerAge": 28,
+    "playerCountry": "Australia",
+    "playerType": "Bowler",
+    "rating": 90,
+    "bowlingType": "Right-arm fast",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=Pat+Cummins",
+    "price": 1150000
+  },
+  {
+    "playerName": "Steve Smith",
+    "playerAge": 33,
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 91,
+    "bowlingType": "Right-arm leg spin",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=Steve+Smith",
+    "price": 1200000
+  },
+  {
+    "playerName": "Andre Russell",
+    "playerAge": 33,
+    "playerCountry": "West Indies",
+    "playerType": "All-Rounder",
+    "rating": 88,
+    "bowlingType": "Right-arm fast",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=Andre+Russell",
+    "price": 1000000
+  },
+  {
+    "playerName": "KL Rahul",
+    "playerAge": 30,
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 89,
+    "bowlingType": "None",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=KL+Rahul",
+    "price": 950000
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerAge": 32,
+    "playerCountry": "New Zealand",
+    "playerType": "Bowler",
+    "rating": 90,
+    "bowlingType": "Left-arm fast",
+    "battingType": "Left-hand",
+    "image": "https://via.placeholder.com/150?text=Trent+Boult",
+    "price": 1100000
+  },
+  {
+    "playerName": "David Miller",
+    "playerAge": 33,
+    "playerCountry": "South Africa",
+    "playerType": "Batsman",
+    "rating": 87,
+    "bowlingType": "Right-arm medium",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=David+Miller",
+    "price": 900000
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerAge": 23,
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 88,
+    "bowlingType": "Right-arm leg spin",
+    "battingType": "Right-hand",
+    "image": "https://via.placeholder.com/150?text=Rashid+Khan2",
+    "price": 950000
+  }
+]
