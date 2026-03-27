@@ -12,12 +12,16 @@ setSelectedPlayers(filteredPlayers);
 setCoin(coin + player.price)
 }
 
-    // এখানে return শুরু হচ্ছে মেইন কম্পোনেন্টের জন্য
     return (
         <div className="space-y-5">
             {
-                // map ফাংশন শুরু (ব্র্যাকেটগুলো খেয়াল করুন)
-                selectedPlayers.map((player, ind) => (
+               
+             selectedPlayers.length ===0 ?
+             <div className='flex justify-center items-center flex-col'>
+                <h2 className='text-2xl font-semibold'>No players Selected Yet</h2>
+                <p>Go to Avalible tab to select players</p>
+             </div>
+             :   selectedPlayers.map((player, ind) => (
                     <div key={ind} className='flex items-center justify-between p-6 rounded-2xl border mb-4 shadow-sm bg-white'>
                         <div className='flex items-center gap-6'>
                             <div className="w-20 h-20">
