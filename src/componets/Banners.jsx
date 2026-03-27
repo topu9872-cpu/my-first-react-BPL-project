@@ -14,7 +14,6 @@ const Banners = () => {
 </div>
        </section>
        
-       
     );
 };
 

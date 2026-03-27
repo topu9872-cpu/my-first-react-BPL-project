@@ -1,23 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaFlag, FaUser } from "react-icons/fa";
 import Image from "../../assets/logo.png";
+const AvalilablePlayers = ({data , setCoin , coin , setSelectedPlayers , selectedPlayers}) => {
+const [isSelected, setIsSelected ] = useState([]);
 
 
 
+const handleChoosePlayer = (player , index)=>  {
+let newCoin = coin-player.price;
+if(newCoin >= 0 ){
+setCoin(coin - player.price);
+}else{
+  alert('Not enough coin to purchase this player');
+  return;
+}
 
 
+setIsSelected([... isSelected,index]);
+alert(`${player.playerName} is Selected`)
+ setSelectedPlayers([... selectedPlayers, player])
+}
 
 
-
-const AvalilablePlayers = ({data}) => {
-    return (
+ return (
         <div className='grid gap-6 items-center md:grid-cols-2 lg:grid-cols-3'>
             {
   data.map((player , index)=>(
- 
-
-          <div key={index}  className="card shadow-sm mt-10 gap-4 bg-white text-black ">
+          <div key={index} coin={coin} className="card shadow-sm mt-10 gap-4 bg-white text-black ">
   <figure>
+   
     <img className='rounded-2xl'
       src={Image} />
   </figure>
@@ -39,17 +50,23 @@ const AvalilablePlayers = ({data}) => {
 </div>
     
     <div className="card-actions justify-between items-center">
-        <p className="font-semibold">{player.price}</p>
-      <button className="btn ">Choose Player</button>
+        <p className="font-semibold">{player.price}
+         
+        </p>
+      <button className="btn" onClick={() => handleChoosePlayer(player , index) }
+        disabled={isSelected .includes(index)
+         
+        }
+        > 
+        
+       { isSelected .includes(index)  ? "selected" : "Choose Player"}</button>
     </div>
   </div>
  
  
 </div> 
   ))  
-   }  
-        </div>
+   }        </div>
     );
 };
-
 export default AvalilablePlayers;
