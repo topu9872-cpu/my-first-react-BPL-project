@@ -14,14 +14,14 @@ const [selectedType , setSelected] = useState("available");
       
           <div className="flex justify-between mt-10 mx-26">
     { selectedType === 'available' ? (<h1 className='text-2xl font-bold'>Available Players</h1>) 
-    : ( <h1 className='text-2xl font-bold'>Selected Players(2/6)</h1> )}
+    : ( <h1 className='text-2xl font-bold'>Selected Players({selectedPlayers.length/Players.length })</h1> )}
     <div>
       <button 
       onClick={() => setSelected('available')}
       className={`btn ${ selectedType === 'available' ? 'bg-[#E7FE29]' : 'bg-gray-300'} text-black rounded-r-none rounded-l-xl`}>Available</button>
       <button
         onClick={() => setSelected('seleceted')}
-      className={`btn ${ selectedType === 'available' ? 'bg-gray-300' : 'bg-[#E7FE29]' } text-black rounded-l-none rounded-r-xl`}>Seleceted (0)</button>
+      className={`btn ${ selectedType === 'available' ? 'bg-gray-300' : 'bg-[#E7FE29]' } text-black rounded-l-none rounded-r-xl`}>Seleceted ({selectedPlayers.length})</button>
       </div> 
   </div>;
 
@@ -29,7 +29,7 @@ const [selectedType , setSelected] = useState("available");
    { selectedType === 'available' 
    ? (<AvalilablePlayers data={data} setCoin={setCoin}
      coin={coin} setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers}></AvalilablePlayers>)
-   :<SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers> } 
+   :<SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} coin={coin} setCoin={setCoin}></SelectedPlayers> } 
  </div>
 
 </>
